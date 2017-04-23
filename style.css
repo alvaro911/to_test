@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css?family=Didact+Gothic|Lato');
+
+body, html{
+  margin: 0;
+  padding: 0;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+}
+
+img{
+  width: 100%;
+  height: auto;
+}
+
+h1, h2{
+  margin: 0
+}
+
+.didact{
+  font-family: 'Didact Gothic'
+}
+
+.lato{
+  font-family: 'Lato'
+}
+
+.container{
+  width: 93.75%;
+  max-width: 1600px;
+  height: auto;
+  margin: 0 auto;
+}
+
+header{
+  width: 100%;
+  height: auto;
+  padding:1em 0;
+  position: fixed;
+  z-index: 1;
+}
+
+header .container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  top: 0;
+  left: 0;
+}
+
+.logo{
+  width: 22.5%;
+}
+
+nav{
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+nav a{
+  color: white;
+  font-size: 20px;
+}
+
+.hero{
+  background: url('img/hero.jpg') center center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.hero-cont{
+  width: 56.67%;
+  height: auto;
+  position: relative;
+  top: 16em;
+}
+
+.hero-header{
+  font-size:30px;
+  color: white;
+  line-height: 1.5;
+}
+
+.link-buttons{
+  display: flex;
+  flex-direction: row;
+}
+
+.link-buttons a{
+  width: 30.88%;
+  margin:1.5em 1em 0 0;
+  padding:.7em;
+  text-align: center;
+  border-radius: 30px;
+  background-color: #d3700c;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.tag{
+  width: 100%;
+  height: auto;
+  padding: 2em 0;
+  text-align: center;
+}
+
+.tag h2{
+  font-size: 35px;
+  color: #4e2800;
+}
+
+.tag h3{
+  font-size: 22px;
+  width: 81.67%;
+  line-height: 1.5;
+  color: #292929;
+  margin: 1em auto 0;
+}
+
+.sec{
+  width: 100%;
+  height: auto;
+  padding: 4.5em 0;
+}
+
+.one{
+  background-color: rgba(148, 170, 45, 0.7);
+}
+
+.sec .container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.sec .container.two{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+article{
+  width: 41.67%;
+  height: auto;
+  margin-top: 1em;
+}
+
+article h2{
+  font-size: 32px;
+  color: #4e2800;
+}
+
+article p{
+  font-size: 16px;
+  line-height: 1.5;
+  color: #292929;
+}
+
+.sec-img{
+  width: 48.33%;
+  height: auto;
+}
