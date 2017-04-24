@@ -23,7 +23,7 @@ $(document).ready(function(){
     if(pos < -10){
       header.css({'background-color': '#dabd87'})
       nav.css({'color' : '#4e2800'})
-      logo.attr('src', 'img/tw_logo_dark.svg').css({'width' : '18%'})
+      logo.attr('src', 'img/tw_logo_dark.svg').css({'width' : '15%'})
     }
     else{
       header.css({'background-color': 'rgba(0,0,0,0)'})
