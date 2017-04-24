@@ -109,6 +109,15 @@ nav a{
   color: white;
   font-size: 18px;
   cursor: pointer;
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  -ms-transition: all .25s ease;
+  -o-transition: all .25s ease;
+  transition: all .25s ease;
+}
+
+.link-buttons a:hover{
+  background-color: #f18e02;
 }
 
 .tag{
