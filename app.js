@@ -15,6 +15,7 @@ $(document).ready(function(){
     fading.css('opacity',opacity);
     var hero = $('.hero')
     var logo = $('.logo')
+    var logoimg = $('.logo img')
     var nav = $('nav a')
     var heroPos = hero.offset().top
     var windowPos = $(window).scrollTop()
@@ -23,12 +24,14 @@ $(document).ready(function(){
     if(pos < -10){
       header.css({'background-color': '#dabd87'})
       nav.css({'color' : '#4e2800'})
-      logo.attr('src', 'img/tw_logo_dark.svg').css({'width' : '15%'})
+      logo.css({'width' : '15%'})
+      logoimg.attr('src', 'img/tw_logo_dark.svg')
     }
     else{
       header.css({'background-color': 'rgba(0,0,0,0)'})
       nav.css({'color' : 'white'})
-      logo.attr('src', 'img/tw_logo_light.svg').css({'width' : '22.5%'})
+      logoimg.attr('src', 'img/tw_logo_light.svg')
+      logo.css({'width' : '22.5%'})
     }
     console.log(pos)
   })
